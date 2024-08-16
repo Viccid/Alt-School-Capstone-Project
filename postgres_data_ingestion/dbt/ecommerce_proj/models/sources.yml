@@ -1,0 +1,24 @@
+sources:
+  - name: ecommerce_data
+    description: "Source tables from the Brazilian e-commerce dataset."
+    database: altsch-captone-project
+    schema: ecommerce_data
+    tables:
+      - name: olist_geolocation_dataset
+        description: "This dataset has information about the customer and its location."
+      - name: olist_order_items_dataset
+        description: "This dataset has information Brazilian zip codes and its lat/lng coordinates."
+      - name: olist_order_payments_dataset
+        description: "This dataset includes data about the items purchased within each order."
+      - name: olist_order_reviews_dataset
+        description: "This dataset includes data about the orders payment options."
+      - name: olist_orders_dataset
+        description: "This dataset includes data about the reviews made by the customers."
+      - name: olist_products_dataset
+        description: "This is the core dataset. From each order you might find all other information."
+      - name: olist_sellers_dataset
+        description: "Translates the product_category_name to english."
+      - name: olist_customers_dataset
+        description: "This dataset includes data about the products sold by Olist."
+      - name: product_category_name_translation
+        description: "This dataset includes data about the sellers that fulfilled orders made at Olist."
