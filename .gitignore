@@ -1,0 +1,12 @@
+venv
+pg_data
+.env
+__pycache__
+logs
+plugins
+postgres-db-volume
+cf_utils.__pycache__
+config/*.json
+.sqlite
+config
+dbt.log
